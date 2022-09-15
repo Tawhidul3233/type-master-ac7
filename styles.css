@@ -191,6 +191,14 @@ button {
   }
 }
 
+@media only screen and (min-width: 701px ) and (max-width: 999px){
+  
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+}
 
 @media only screen and (min-width: 1000px) {
   
