@@ -215,13 +215,19 @@ button {
 
 
 .blogPart{
-  position: fixed;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
   z-index: -1;
-  right: 10px;
-  top: 70%;
   border: red solid 1px;
   width: 160px;
-  
-  
+}
+
+.blogS{
+  position: fixed;
+  right: 20px;
+  top: 75%;
+  text-align: center;
 }
 
