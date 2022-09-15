@@ -60,6 +60,7 @@ body {
   font-size: 3rem;
   color: white;
   display: none;
+  z-index: 5;
 }
 #result {
   position: absolute;
@@ -202,6 +203,9 @@ button {
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
   }
+  .blogS{
+    z-index: 2;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -210,6 +214,9 @@ button {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
+  }
+  .blogS{
+    z-index: 1;
   }
 }
 
