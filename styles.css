@@ -189,6 +189,10 @@ button {
   .card {
     flex-direction: column;
   }
+
+  .blogPart{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 701px ) and (max-width: 999px){
@@ -208,3 +212,16 @@ button {
     gap: 10px;
   }
 }
+
+
+.blogPart{
+  position: fixed;
+  z-index: -1;
+  right: 10px;
+  top: 70%;
+  border: red solid 1px;
+  width: 160px;
+  
+  
+}
+
